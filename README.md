@@ -17,3 +17,12 @@
 - [ ] Simulating traffic
 - [ ] Parallelization
 - [ ] Generic algorithm
+
+### 🛠 Tools
+
+Tools used for the project:
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Javascript](https://www.javascript.com/)
+- HTML
+- CSS
