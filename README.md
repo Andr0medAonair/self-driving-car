@@ -11,7 +11,7 @@
 
 - [x] Setup
 - [x] Car driving mechanics
-- [ ] Defining the road
+- [x] Defining the road
 - [ ] Artificial sensors
 - [ ] Collision detection
 - [ ] Simulating traffic
