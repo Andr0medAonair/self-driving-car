@@ -12,7 +12,7 @@
 - [x] Setup
 - [x] Car driving mechanics
 - [x] Defining the road
-- [ ] Artificial sensors
+- [x] Artificial sensors
 - [ ] Collision detection
 - [ ] Simulating traffic
 - [ ] Parallelization
