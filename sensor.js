@@ -30,14 +30,13 @@ class Sensor {
             }
         }
 
-        if (touches.length == 0) {
-            return null
-        } else {
-            const offsets = touches.map(e => e.offset)
-            const minOffset = Math.min(...offsets)
-            return touches.find(e => e.offset == minOffset)
-        }
-        // return touches.length == 0 ? null : 
+        return touches.length == 0 ? null : this.#findtouches(touches)
+    }
+
+    #findtouches(touches) {
+        const offsets = touches.map(e => e.offset)
+        const minOffset = Math.min(...offsets)
+        return touches.find(e => e.offset == minOffset)
     }
 
     #castRays() {
